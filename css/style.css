@@ -48,6 +48,44 @@ body::-webkit-scrollbar-button {
 body::-webkit-scrollbar-thumb:hover {
     background-color: #4a433d;}
 
+/* 팝업창 */
+.scroll_none{
+    height: 0px;
+    overflow: hidden;
+}
+.popup{
+    width: 450px;
+    height: 150px;
+    background-color: #442119;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 10px #0000008a;
+    border-radius: 25px;
+    position: absolute;
+    top: 410px;
+    left: 43%;
+    margin-left: -100px;
+    color: white;
+    z-index: 999999;
+}
+.popup p{
+padding-bottom: 40px;
+}
+.Yes{margin-right: 20px;}
+.Yes, .No{
+    width: 15%;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 60px;
+    text-align: center;
+    border-radius: 10px;
+}
+.Yes:hover, .No:hover{
+    background-color: rgba(255, 255, 255, 0.705);
+}
+
 
     
 /* header======================================================= */
@@ -323,7 +361,6 @@ h3 {
 #section2 {
     width: 1320px;
     margin: 0 auto;
-    /* background-color: rgb(147, 151, 155); */
     padding-top: 160px;
     box-sizing: border-box;
 }

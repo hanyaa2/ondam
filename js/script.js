@@ -1,3 +1,19 @@
+// 팝업창===========================================
+    $(function(){
+                $(".popup").fadeIn();
+                $("body").addClass("scroll_none");
+            });
+            $(".Yes").click(function(){
+                $(".popup").fadeOut();
+                $("body").removeClass("scroll_none");
+            });
+                        $(".No").click(function(){
+                $(".popup").fadeOut();
+                $("body").removeClass("scroll_none");
+            });
+        // });
+
+
 
 // 이미지 확대=====================================
 $(window).on('scroll', function () {
