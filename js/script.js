@@ -7,14 +7,11 @@ $(".Yes").click(function () {
   $(".popup").fadeOut();
   $("body").removeClass("scroll_none");
 });
-$(".No").click(function () {
-  $(".popup").fadeOut();
-  $("body").removeClass("scroll_none");
-});
 
 document.querySelector(".No").addEventListener("click", function () {
   alert("19세 이상만 이용 가능합니다.");
 });
+
 
 // 이미지 확대=====================================
 $(window).on('scroll', function () {
